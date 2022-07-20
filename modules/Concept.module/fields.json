@@ -1,0 +1,19 @@
+[ {
+  "id" : "65dce3c6-53e7-84af-b45b-79a8791887da",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 3,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : [ "concept", "concept", "concept" ]
+} ]

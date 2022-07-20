@@ -1,0 +1,9 @@
+<div class="flex-container">
+    {% for item in module.text_field %}
+        <div class="b-concept">
+            <div class="b-concept__text">
+                {% inline_text field="text_field" value="{{ item }}" %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

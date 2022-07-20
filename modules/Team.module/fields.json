@@ -1,0 +1,142 @@
+[ {
+  "id" : "ed1b85cc-924b-cacf-7be6-59e1483cdd55",
+  "name" : "team_card",
+  "display_width" : null,
+  "label" : "Team card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 6,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "d8ec5a2d-ca70-d8b2-63d7-53431db2176d",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    }
+  }, {
+    "id" : "e0dab18c-efdf-18e8-56cf-609b0982c11b",
+    "name" : "name_field",
+    "display_width" : null,
+    "label" : "Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "You name"
+  }, {
+    "id" : "ddb64d17-71e1-29de-515e-b9e5302cf24c",
+    "name" : "role_field",
+    "display_width" : null,
+    "label" : "Role",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Your position"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    },
+    "name_field" : "You name",
+    "role_field" : "Your position"
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    },
+    "name_field" : "You name",
+    "role_field" : "Your position"
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    },
+    "name_field" : "You name",
+    "role_field" : "Your position"
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    },
+    "name_field" : "You name",
+    "role_field" : "Your position"
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    },
+    "name_field" : "You name",
+    "role_field" : "Your position"
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent-eu1.net/hubfs/25504338/placeholder.png",
+      "alt" : "placeholder",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 800,
+      "max_width" : 1200,
+      "max_height" : 800
+    },
+    "name_field" : "You name",
+    "role_field" : "Your position"
+  } ]
+} ]

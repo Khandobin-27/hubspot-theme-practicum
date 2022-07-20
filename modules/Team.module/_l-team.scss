@@ -1,0 +1,43 @@
+.l-team {
+  
+    @media only screen and (max-width: 700px) {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__listing {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
+        gap: 2rem;
+      }
+      &__card {
+        background-color: whitesmoke;
+        cursor: pointer;
+        padding: 1rem;
+        box-shadow: 9px -7px 15px -5px rgba(204,167,18,1);
+        transition: .5s;
+        border-radius: 2%;
+      }
+
+      &__card:hover {
+        transform: scale(1.1);
+      }
+
+      &__img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      &__p {
+        margin-top: 0.5rem;
+        color: #111125;
+        font-size: 1.2rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+    }
+
+    .name {
+      font-size: 1.5rem;
+    }
+}

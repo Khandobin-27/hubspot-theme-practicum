@@ -1,0 +1,60 @@
+@media only screen and (max-width: 700px) {
+  .l-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.l-team__listing {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
+  gap: 2rem;
+}
+.l-team__card {
+  background-color: whitesmoke;
+  cursor: pointer;
+  padding: 1rem;
+  -webkit-box-shadow: 9px -7px 15px -5px #cca712;
+          box-shadow: 9px -7px 15px -5px #cca712;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 2%;
+}
+.l-team__card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.l-team__img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.l-team__p {
+  margin-top: 0.5rem;
+  color: #111125;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+.l-team .name {
+  font-size: 1.5rem;
+}
+
+section {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.heading-text {
+  color: whitesmoke;
+  -webkit-text-decoration: underline yellow;
+          text-decoration: underline yellow;
+  font-size: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 1em;
+}

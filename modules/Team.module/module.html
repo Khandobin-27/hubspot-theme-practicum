@@ -1,0 +1,14 @@
+<section>
+    <h1 class="heading-text">Your instructors</h1>
+    <div class="l-team">
+        <div class="l-team__listing">
+            {% for item in module.team_card %}
+                <div class="l-team__card">
+                    <img class="l-team__img" src="{{ item.image_field.src }}" alt="{{ item.image_field.alt }}" {{ loadingAttr }} {{ sizeAttrs }}> 
+                    <div class="l-team__p name">{% inline_text field="name_field" value="{{ item.name_field }}" %}</div>
+                    <div class="l-team__p">{% inline_text field="role_field" value="{{ item.role_field }}" %}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
